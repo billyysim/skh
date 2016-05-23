@@ -67,7 +67,7 @@
 		</table>
 	</div>
 	<div class="panel panel-default">
-		<div class="panel-heading">Waiting For Apporoval</div>
+		<div class="panel-heading">Waiting For Approval</div>
 		<table class="table table-striped table-hover">
 			<tr>
 				<td>Tahun Ajaran</td>

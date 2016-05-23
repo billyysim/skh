@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Sistem Informasi SKH </title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,13 +28,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">SKH Kanaan Global School</a>
+          <a class="navbar-brand" href="index.php">SKH Kanaan Global School</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="#">Jibas</a></li>
+            <li><a href="index.php">Jibas</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Master <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -45,17 +45,15 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SKH <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li> <a href="#"> notification </a> </li>
-                <li> <a href="#"> add SKh </a> </li>
-                <li> <a href="#"> view SKH</a> </li>
-                <li> <a href="#"> Approval SKH </a> </li>
-                <li><a href="#"> unlock SKH </a></li>
+                <li> <a href="index.php"> notification </a> </li>
+                <li> <a href="viewSKH.php"> view SKH</a> </li>
+                <li> <a href="viewSKHl.php"> unlock SKH</a> </li>
               </ul>
             </li>
             <li>
               <a href="#">Print SKH </a>
             </li>
-            <li class="dropdown">
+            <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Setting <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li> <a href="#"> Add Menu Header</a> </li>
@@ -65,7 +63,7 @@
                 <li> <a href="#"> Add Menu Access</a> </li>
                 <li> <a href="#"> View Menu Access</a> </li>
               </ul>
-            </li>
+            </li> -->
             <li>
               <a href="#">Logout </a>
             </li>
