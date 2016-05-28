@@ -1,34 +1,32 @@
 <?php include 'header.php'; ?>
-<div class="page">
 <div class="container title">
     <img src="" alt="logo" height="90" align="left" style="margin-left:400px">
-   </br> <h4>TK KANAAN GLOBAL SCHOOL JAMBI  </h4>
-    <h4>STANDARD KOMPETISI HARIAN </h4>
+   
+    <h4>STANDARD KOMPETISI TAMAN BERMAIN (SKH) </h4>
 </div>
-<div class="container header">
-    <div class="row">
-        <div class="col-md-5">
-            <table>
+            <table class="center">
                 <tr>
-                    <td class="col-sm-1">Sem/Minggu</td>
-                    <td class="col-md-12">: 2/12</td>
+                    <td >Kelompok</td>
+                    <td >:K1D-GENTLENESS</td>
                 </tr>
                 <tr>
-                    <td class="col-sm-1">Tema</td>
-                    <td class="col-sm-12">:Testing aja</td>
+                    <td >Sem/Minggu</td>
+                    <td >:2/12</td>
                 </tr>
                 <tr>
-                    <td class="col-sm-1">Hari/periode</td>
-                    <td class="col-sm-12">:senin/30 mei 2016 - 3 juni 2016</td>
+                    <td >Tema</td>
+                    <td >:Testing aja</td>
+                </tr>
+                <tr>
+                    <td >Hari/periode</td>
+                    <td >:senin/30 mei 2016 - 3 juni 2016</td>
                 </tr>
             </table>
-        </div>  
-    </div>
-</div>
+            <br>
 <div class="container content">
     <div class="row">
         <div class="col-md-12">
-        <table class="table table-bordered">
+        <table class="table table-bordered" >
             <tr class="info">
                 <th rowspan="2">Mata Pelajaran</th>
                 <th rowspan="2">Hasil Belajar</th>
@@ -36,7 +34,7 @@
                 <th rowspan="2">Bidang Pengembangan</th>
                 <th colspan="4" class="text-center">Teknik Penilaian</th>
             </tr>
-            <tr>
+            <tr class="info">
                 <th>unjuk kerja</th>
                 <th>hasil karya</th>
                 <th>perilaku/sikap</th>
@@ -84,9 +82,8 @@
 
     </div>
 </div>
-<div class="container foot col-md-offset-2">
+<div class="col-centered">
     <div class="row">
-        
         <div class='col-md-3 text-center'> nama guru</div>
         <div class="col-md-3 text-center">Tristan Kusumawati Alexandra</div>
     </div>
@@ -94,6 +91,5 @@
         <div class='col-md-3'>__________________________________</div>
         <div class='col-md-3'>__________________________________</div>
     </div>
-</div>
 </div>
 <?php include 'footer.php'; ?>
