@@ -51,7 +51,7 @@
               </ul>
             </li>
             <li>
-              <a href="#">Print SKH </a>
+              <a href="viewPrint.php">Print SKH </a>
             </li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Setting <span class="caret"></span></a>

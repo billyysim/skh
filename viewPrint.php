@@ -1,0 +1,63 @@
+<?php include 'header.php'; ?>
+<div class="container">
+    <div class="page-header">
+        <h1>Print SKH</h1>
+    </div>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="Tahun Ajaran" class="col-sm-2 control-label">Tahun Ajaran</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="tahunAjaran" placeholder="" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="Tingkat" class="col-sm-2 control-label">Tingkat</label>
+            <div class="col-sm-3">
+                <select class="form-control">
+                  <option>kinder 1</option>
+                  <option>kinder 2</option>
+                  <option>nursery</option>
+                </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="Semester" class="col-sm-2 control-label">Semester-Minggu</label>
+            <div class="col-sm-3">
+                <select class="form-control">
+                  <option>Semester 1</option>
+                  <option>Semester 2</option>
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="form-control">
+                  <option>week1</option>
+                  <option>week2</option>
+                  <option>week3</option>
+                </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="Tanggal Awal" class="col-sm-2 control-label">Tanggal</label>
+            <div class="col-sm-2">
+                <input class="form-control" type="date" id="tglAwal" readonly>
+            </div>
+            <label for="Tanggal Akhir" class="col-sm-2 control-label">s/d tanggal </label>
+            <div class="col-sm-2">
+                <input class="form-control" type="date" id="tgllAkhir" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="Tema" class="col-sm-2 control-label">Tema</label>
+            <div class="col-sm-3">
+                <input class="form-control" type="text" id="tema" readonly>
+            </div>
+          </div>
+                   
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button class="btn btn-default col-sm-2 col-sm-offset-2">Print</button>
+            </div>
+          </div>
+        </form>
+</div>
+<?php include 'footer.php'; ?>
